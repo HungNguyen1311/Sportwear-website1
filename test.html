@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <style>
+            .xulydanhmuc{
+                width: 100%;
+                min-height: 500px;
+                flex-direction: row;
+                display: flex;
+            }
+            .themdanhmuc{
+                width: 30%;
+                min-height: 100px;
+                text-align: right;
+            }
+            .lietkedanhmuc{
+                width: 70%;
+                min-height: 200px;
+                text-align: center;
+            }
+            .lietkedanhmuc table{
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            .lietkedanhmuc table th,td{
+                min-width: 200px;
+                height: 20px;
+                text-align: center;
+            }
+            #themdanhmucbt{
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="xulydanhmuc">
+        <div class="themdanhmuc">
+            <h2>Thêm danh mục</h2>
+            <input type="text" name="danhmuc" placeholder="Tên danh mục"><br>
+            <input type="submit" name="themdanhmuc" id="themdanhmuc" value="Thêm danh mục" id="themdanhmucbt">
+        </div>
+        <div class="lietkedanhmuc">
+            <h2>Liệt kê danh mục</h2>
+            <table border="">
+                    <tr>
+                        <th> Thứ tự</th>
+                        <th>Tên danh mục</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Ip</td>
+                    </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+</html>
